@@ -10,6 +10,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QHBoxLayout, QVB
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
+        self.setWindowTitle("Калькулятор")
 
         self.v_label_box = QHBoxLayout()
 
@@ -215,8 +216,6 @@ class MainWindow(QWidget):
 
     def press_btn_percent(self):
         answer = self.label1.text()
-        answer
-        print(answer)
 
     def press_btn_ac(self):
         self.label1.setText('0')
