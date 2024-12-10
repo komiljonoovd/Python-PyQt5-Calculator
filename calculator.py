@@ -305,10 +305,10 @@ class MainWindow(QWidget):
             self.label1.setText(self.label1.text() + '/')
 
     def press_btn_result(self):
-        jami = self.label1.text()
-        jami = eval(jami)
+        answer = self.label1.text()
+        answer = eval(answer)
         self.label2.setText(self.label1.text())
-        self.label1.setText(str(jami))
+        self.label1.setText(str(answer))
 
     def press_btn_comma(self):
         if self.label1.text()[-1] not in [',', '*', '/', '+', '-']:
