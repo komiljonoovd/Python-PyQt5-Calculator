@@ -1,6 +1,2 @@
-pip~=24.0
-attrs~=24.2.0
-pillow~=10.4.0
-setuptools~=65.5.0
 typing_extensions~=4.12.2
 PyQt5~=5.15.9
